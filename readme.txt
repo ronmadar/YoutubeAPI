@@ -55,7 +55,7 @@ MY Explore
 
 https://developers.google.com/youtube/v3/docs 
 i created a key - create a project , enable a youtube access and then create a Credential. and then the api key generated. 
-*** API Key: AIzaSyDFrQMvXTZ9PARFXvLpcOTSeC8bBOu6Pw0 90ASASJHKNMASHJ
+*** API Key: .....
 
 in any channel youtube has a id in the about section , and click on share button which will give me the channel ID
 *** Channel Id: UCZnjaU2W0YZ-6n-CRiaCikQ
