@@ -1,0 +1,101 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.load-box {
+    display: flex;
+    place-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.yt-video {
+    display: block;
+    text-decoration: none;
+    background-color: #333;
+    max-width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: auto;
+    color: #fff;
+    margin: auto;
+}
+.videos.row{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1px;
+}
+.yt-video img {
+    width: 100%;
+}
+
+.yt-video h3 {
+    font-weight: 400;
+    padding: 15px;
+    text-align: center !important;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ /* Add your custom styles here */
+ .autocomplete-suggestions {
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    top: 40px;
+
+}
+.autocomplete-suggestion.highlighted {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.autocomplete-suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+.autocomplete-suggestion:hover {
+    background-color: #f0f0f0;
+}
+
