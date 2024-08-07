@@ -51,7 +51,7 @@ npm install
 
 Open index.html in a web browser to view the application.
 
-MY EXPLOR
+MY Explore
 
 https://developers.google.com/youtube/v3/docs 
 i created a key - create a project , enable a youtube access and then create a Credential. and then the api key generated. 
